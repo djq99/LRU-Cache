@@ -7,3 +7,5 @@ deploy:
   provider: heroku
   api_key: 8863ceb2-efa4-447a-b838-1ca7cb56e1a9
   on: production
+  app: LRU-Cache
+  run: npm start
