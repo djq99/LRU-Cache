@@ -2,14 +2,14 @@ language: node_js
 node_js: 10
 install: npm install
 script:
-  - "npm run test"
+- npm run test
 deploy:
   provider: heroku
   on:
     repo: djq99/LRU-Cache
     branches:
       only:
-        - master
+      - master
   app: my-cache
   api_key:
-    secure: Y3+u05+aO+Q2ExwxxkixCuUWz+kiFq7drydbip7pJfeT2hdQGpXW/7WD+BqGQEaUxH3AnWhgInS6IzZVlxpdhsbyhfouWUJsUTTI8lNfX3lz/W9/SiLSnWkAF+NjHyUVmHWldyiLBqNiEhOamqIrXQxNQwM85QvcHiTdyemoXA1UQ87hKaapeFTw2uZdRfzItLlizLDoG6GQjK4oG4lMhYjezJC3HAShm32CFgw+l4SESsQOkUEuqdxfs2UjhbqrBw6V/vBzNbt6MMEfvW+4ns/2qe3tFz2PeTJ8/w91Pk6STJuADm7/kfYOT92AndLU1Qrt0GLxUu7ARKauPnf/8uNTxTI9Ye3k6Pg4AjTR1X5T7Zj7S0IlMgMyu6BMLascC4p8dXf4d6l3ajEiorsFZUBAi3NZ729eD/5jDDFEVh+IUQKJ+7O5qWB1d6ORcMuUV05mJMe7KXpPXd9cYRmS8BS2niGsA06j9JRObRxFrAdz7ohzK7RVzW5wxrhiVMmtN/6gtqBQdYz/xncRkeJ1igYrqqYAgHH3diubXc27+SQ9FQuBQRJPw6Fshm8q9jr0q+S3eYSEH3aTLyLRLpAFQ1qXXC5aTNBEqlEX9Wf7NuVWBzTVXniQF4trPqMiQ1m2rwAPaUcgIqceC/njAiUXuGrxooTZUyK05toIJEvN/G0=
+    secure: RyJ7i0GASz8HHIJlq9e2ePF7QtCHzAGgzRk0y5H6p4PMts+XNqg3xoZhXaqUH65kzrvwvdUx5ZLFAYTTA9BeLgO5WxQm38Eh/0EUsdJL1CutnAv8QA8Ut8DvIZKAfLFdhnKJIa7Ww+R+vrPuZ0XXId8A4eKd7cY6OF2NdhlE6eAQYQPINJjW9GKmhu6kD/Cgh8T8JudtxQ+1jZJE4PqunP0XTE6P5h8Xkx5plU5Eb1dHu2QZgKQLi9x3KQzhyuWjRGx82GQHSMsqnTenofI6CPXGaj0W4TcWh9D/JTQmgaM8iMCe7qXbGZLfABCNmKYnYYCVCadsEN2z1zDkOdxslUHJVgSK5C17KmqxxwzNri2RmiJWlkOGwqc3uJeHcYOWFvzujmYWebUgv+6IlXRIP/Oy6Pg3NF7YtxTNgEb/aB9uir+n+E1gVaQgt1O/yxpofMT6u+vrv7n6e0z9csxjGjJ8GVhP7PtDXbITDOjxwOdGzQHt6lq5gfVQhthb4wIVpSS2OUFEfzz8KJLPJJHMt6NdlRI8z2vEzcZ1ghyPTNxmCPG4QoJH1mschrrpnV9lwY5O7nddrqpUfPs3RNTVibdrQu9PSpuHZkNkO7KnL7Ipdy3mQw+b16caWeSzCfG5NHUo5FpTs+Uo/CwHELJhlgiQ/gkboiZSCXAuWx0jhXo=
