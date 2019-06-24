@@ -16,10 +16,10 @@ Open terminal then use CURL to make http requests:
   - PUT a key and value: 
   ``` 
   curl -X PUT \
-  https://my-cache.herokuapp.com/api/v1/put/2 \
+  https://my-cache.herokuapp.com/api/v1/put/1 \
   -H 'Content-Type: application/json' \
   -H 'cache-control: no-cache' \
-  -d '{"value":500}'
+  -d '{"value":400}'
   ```
   
   - GET a key and value:
