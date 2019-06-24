@@ -11,5 +11,5 @@ deploy:
       only:
         - master
   app: my-cache
-  api_keyheroku:
+  api_key:
     secure: Y3+u05+aO+Q2ExwxxkixCuUWz+kiFq7drydbip7pJfeT2hdQGpXW/7WD+BqGQEaUxH3AnWhgInS6IzZVlxpdhsbyhfouWUJsUTTI8lNfX3lz/W9/SiLSnWkAF+NjHyUVmHWldyiLBqNiEhOamqIrXQxNQwM85QvcHiTdyemoXA1UQ87hKaapeFTw2uZdRfzItLlizLDoG6GQjK4oG4lMhYjezJC3HAShm32CFgw+l4SESsQOkUEuqdxfs2UjhbqrBw6V/vBzNbt6MMEfvW+4ns/2qe3tFz2PeTJ8/w91Pk6STJuADm7/kfYOT92AndLU1Qrt0GLxUu7ARKauPnf/8uNTxTI9Ye3k6Pg4AjTR1X5T7Zj7S0IlMgMyu6BMLascC4p8dXf4d6l3ajEiorsFZUBAi3NZ729eD/5jDDFEVh+IUQKJ+7O5qWB1d6ORcMuUV05mJMe7KXpPXd9cYRmS8BS2niGsA06j9JRObRxFrAdz7ohzK7RVzW5wxrhiVMmtN/6gtqBQdYz/xncRkeJ1igYrqqYAgHH3diubXc27+SQ9FQuBQRJPw6Fshm8q9jr0q+S3eYSEH3aTLyLRLpAFQ1qXXC5aTNBEqlEX9Wf7NuVWBzTVXniQF4trPqMiQ1m2rwAPaUcgIqceC/njAiUXuGrxooTZUyK05toIJEvN/G0=
