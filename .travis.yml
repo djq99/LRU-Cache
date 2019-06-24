@@ -6,7 +6,7 @@ script:
 deploy:
   provider: heroku
   on:
-    repo: LRU-cache
+    repo: djq99/LRU-Cache
     branches:
       only:
         - master
