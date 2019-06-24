@@ -7,7 +7,29 @@ Hosted on
 https://my-cache.herokuapp.com
 ```
 
-# Features
+### How to use
+
+- Examples:
+
+Open terminal then use CURL to make http requests:
+
+  - PUT a key and value: 
+  ``` 
+  curl -X PUT \
+  https://my-cache.herokuapp.com/api/v1/put/2 \
+  -H 'Content-Type: application/json' \
+  -H 'cache-control: no-cache' \
+  -d '{"value":500}'
+  ```
+  
+  - GET a key and value:
+  ```
+  curl -X GET \
+  https://my-cache.herokuapp.com/api/v1/get/1 \
+  -H 'cache-control: no-cache'
+  ```
+  
+### Features
 
   - Initiate cache size with 2
   - PUT key and value
@@ -26,3 +48,6 @@ $ npm start
 ```sh
 $ npm test
 ```
+
+
+
