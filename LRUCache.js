@@ -20,6 +20,10 @@ class LRUCache{
             obj.value = this.map.get(key);
             this.map.delete(key);
         }
+        else{
+            obj.key = key;
+            obj.value = value;
+        }
         this.map.set(key, value);
         const keys = this.map.keys();
         if(this.map.size > this.capacity){
