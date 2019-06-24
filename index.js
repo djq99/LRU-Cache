@@ -1,6 +1,7 @@
 const express = require("express");
 const server = express();
 const bodyParser = require("body-parser");
+const port = process.env.PORT || 3000;
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: false }));
@@ -36,6 +37,8 @@ server.put("/api/v1/put/:key", (req, res) => {
     res.json(obj);
  });
 
- const listener = server.listen(3000, () => {
+const listener = server.listen(port, () => {
     console.log(`HTTP server is listening at port ${listener.address().port}`);
 });
+
+module.exports = server;
